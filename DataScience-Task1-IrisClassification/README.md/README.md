@@ -1,5 +1,5 @@
 # Data Science – Task 1: Iris Flower Classification
-**Intern:** [Your Name] | **Track:** Data Science | **Organization:** Oasis Infobyte
+**Intern:** Patel Aayushi | **Track:** Data Science | **Organization:** Oasis Infobyte
 
 ## Objective
 Train a machine learning classification model to identify iris flower species from physical measurements.
@@ -13,5 +13,3 @@ Python, scikit-learn, pandas, matplotlib, seaborn, Jupyter Notebook
 3. Trained and evaluated Logistic Regression, KNN, and Random Forest classifiers.
 4. Compared models using accuracy, confusion matrices, and classification reports.
 
-## Results
-The [Insert Best Model] performed best, achieving [Insert Accuracy]% accuracy.
