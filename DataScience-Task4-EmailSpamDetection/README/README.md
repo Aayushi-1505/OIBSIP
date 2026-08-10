@@ -130,29 +130,6 @@ lowercase → remove punctuation/numbers → tokenise → remove stopwords → P
 
 ---
 
-## 🚀 How to Run
-
-```bash
-# 1. Clone your OIBSIP repo
-git clone https://github.com/<your-username>/OIBSIP.git
-cd OIBSIP/DataScience-Task4-EmailSpamDetection
-
-# 2. Install deps
-pip install -r requirements.txt
-
-# 3. (Optional) Download NLTK data — notebook does this automatically
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
-
-# 4. Launch notebook
-jupyter notebook Email_Spam_Detection.ipynb
-# Or run headless execution:
-jupyter nbconvert --to notebook --execute Email_Spam_Detection.ipynb --output executed.ipynb
-```
-
-> **No API keys needed.** Dataset is bundled as `spam.csv`. If deleted, notebook auto-fetches from GitHub raw.
-
----
-
 ## 📊 Key Visuals (Embedded in Notebook)
 
 - Class distribution (bar + pie)
@@ -161,8 +138,6 @@ jupyter nbconvert --to notebook --execute Email_Spam_Detection.ipynb --output ex
 - 3× confusion-matrix heatmaps with TN/FP/FN/TP annotations
 - Precision-Recall curves
 - WordClouds (ham vs spam) + Top-20 word bar charts
-
-All figures are rendered inline in the executed notebook. Exported PNGs are in `screenshots/` for LinkedIn posts.
 
 ---
 
@@ -202,38 +177,3 @@ The notebook ends with a live demo on unseen custom messages:
 
 ---
 
-## 🎥 Demo Video Guidelines (OIBSIP Requirements)
-
-Per Section 1.2 Step 4:
-- First **2 seconds**: static title card with **Full Name + Assigned Track (Data Science) + Task Title (Email Spam Detection)**
-- Then: screen-recorded walkthrough of notebook running end-to-end (not just screenshots)
-- Show: EDA plots, preprocessing demo, TF-IDF explanation, model comparison, confusion matrices, WordClouds, custom predictions
-- Upload to LinkedIn, tag **Oasis Infobyte**, add **#oasisinfobyte** + **#datascience** + **#machinelearning**
-
----
-
-## 📤 Submission Checklist (OIBSIP)
-
-- [x] Notebook executed with all outputs visible
-- [x] Code commented, markdown explanations between charts
-- [x] Pushed to `OIBSIP/DataScience-Task4-EmailSpamDetection/` on GitHub (repo name exactly **OIBSIP**)
-- [ ] Recorded demo video (2-sec title card → end-to-end demo)
-- [ ] LinkedIn post with video, tagged Oasis Infobyte, hashtag #oasisinfobyte
-- [ ] Substantive comments on ≥2 peer videos
-- [ ] Submitted via Task Submission Form (link in welcome email) with GitHub repo URL
-- [ ] Await evaluation (~2 weeks) → Completion Certificate + LOR (if eligible)
-
----
-
-## 📧 Contact & Support
-
-- **Email:** support@oasisinfobyte.com
-- **Telegram:** https://t.me/oasisinfobyte
-- **LinkedIn:** https://in.linkedin.com/company/oasis-infobyte
-- **Website:** https://www.oasisinfobyte.com
-
----
-
-*“Learning is the only thing the mind never exhausts, never fears, and never regrets.” — Leonardo da Vinci*
-
-**Made with ❤️ for OIBSIP Data Science Internship**
